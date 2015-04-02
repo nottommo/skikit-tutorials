@@ -1,5 +1,6 @@
 from sklearn import datasets, neighbors, linear_model
 
+# Load the data
 digits = datasets.load_digits()
 Xdigits = digits.data
 Ydigits = digits.target
